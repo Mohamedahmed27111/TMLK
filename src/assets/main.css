@@ -1,0 +1,958 @@
+@import url(fonts.css);
+
+
+#app{
+  overflow-y: hidden;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+img {
+  width: 100%;
+}
+.store-img {
+  width: 31px !important;
+  height: 38.07px !important;
+  flex-shrink: 0 !important;
+}
+html,
+body {
+  overflow-x: hidden;
+}
+.store {
+  width: 186px !important ;
+  height: 58px !important;
+  flex-shrink: 0 !important;
+  border-radius: 13px !important;
+  border: 2px solid #292929 !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-around !important;
+  cursor: pointer !important;
+}
+html[dir="rtl"] .store{
+  flex-direction: row-reverse;
+}
+.store .store-body {
+  padding-top: 10px !important;
+}
+.store p {
+  color: #232323 !important;
+  font-family: Poppins !important;
+  font-size: 13px !important ;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  line-height: normal !important;
+  margin: 0 !important;
+}
+.store h2 {
+  color: #292929 !important;
+  font-family: Poppins !important;
+  font-size: 22px !important ;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  line-height: normal !important;
+}
+.D-btn {
+  width: 266px;
+  height: 73px;
+  flex-shrink: 0;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(0deg, #dcbd8c 0%, #dcbd8c 100%);
+  backdrop-filter: blur(13px);
+  color: #fff;
+  font-family: Poppins;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 29.7px */
+}
+
+/* /////////////////////////////////////////////////////////// */
+
+/* ///////////////////////////////////// Start Header ///////////////////////////////////////// */
+.header-body {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+html[dir="rtl"] .header-body{
+flex-direction: row-reverse;
+}
+
+/* ///////////////////////////////////// HEADER CAD ///////////////////////////////////////// */
+.header-cad {
+  position: absolute;
+  opacity: 0.12;
+  z-index: -1;
+}
+
+/* ///////////////////////////////////// LEFT HEADER ///////////////////////////////////////// */
+.header-L h2 {
+  color: #349696;
+  font-family: "MontserratAlternates";
+  font-size: 59px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* ///////////////////////////////////// Right HEADER ///////////////////////////////////////// */
+
+.header-R {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+html[dir="rtl"] .header-R{
+  flex-direction: row-reverse;
+}
+.header-R .arabic h5 {
+  font-family: 'Amiri', serif;;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #349696;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 6px;
+  background: rgba(52, 150, 150, 0.2);
+  cursor: pointer;
+}
+html[dir="rtl"] .header-R .arabic h5{
+  font-family: Poppins;
+
+}
+html[dir="rtl"] .header-R .arabic h5{
+  font-family: Poppins;
+
+}
+.header-R .stores {
+  display: flex;
+}
+html[dir="rtl"] .header-R .stores{
+flex-direction: row-reverse;
+}
+
+/* ///////////////////////////////////// End Header  ///////////////////////////////////////// */
+
+/* ///////////////////////////////////// Start Hero ///////////////////////////////////////// */
+.hero-ch {
+  /* height: 827px; */
+  flex-shrink: 0;
+  border-radius: 60px;
+  background: linear-gradient(
+    259deg,
+    #349696 -6.8%,
+    #dcbd8c 31.99%,
+    #349696 53.1%,
+    #bd735c 77.2%,
+    #349696 95.93%
+  );
+  backdrop-filter: blur(123.5px);
+  padding: 30px;
+}
+
+.hero-body h2 {
+  color: #fff;
+  font-family: Fahkwang;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%; /* 70.4px */
+}
+.hero-body p {
+  color: #e9e9e9;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 110%; /* 33px */
+}
+html[dir="rtl"] .hero-body p{
+  line-height: 1.5;
+}
+.download {
+  margin-top: 100px;
+}
+.store-m {
+  margin-right: 15px;
+}
+.hero .stores {
+  display: flex;
+  margin-top: 45px;
+}
+html[dir="rtl"] .hero .stores{
+  flex-direction: row-reverse;
+  justify-content: start;
+}
+/* ////////////////////////////////////// Hero-img /////////////////////////////////// */
+
+.hero-img {
+  position: relative;
+}
+.app-img {
+  position: absolute;
+  top: 96px;
+  margin-left: 15px;
+  width: 463px;
+  height: 934px;
+  flex-shrink: 0;
+}
+
+/* ///////////////////////////////////// End Hero ///////////////////////////////////////// */
+
+/* ///////////////////////////////////// Start Challenge ///////////////////////////////////////// */
+.challenge {
+  margin: 300px 0 100px 0;
+}
+.challenge .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.challenge-body {
+  text-align: center;
+  padding: 100px;
+}
+.challenge-body h1 {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 88px */
+}
+.challenge-body p {
+  color: #616161;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 45px */
+}
+
+.challenge-img {
+  width: 866.145px;
+  height: 733px;
+  flex-shrink: 0;
+}
+
+/* ///////////////////////////////////// end Challenge ///////////////////////////////////////// */
+
+/* ///////////////////////////////////// Start Why-TMKL ///////////////////////////////////////// */
+.Why-TMLK {
+  margin: 200px 0 150px 0;
+  overflow: hidden;
+}
+.why-body h1 {
+  color: #292929;
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 88px */
+}
+.why-body p {
+  color: #616161;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 45px */
+}
+.why-img {
+  position: relative;
+  display: flex;
+  justify-content: end;
+}
+.rec-img {
+  position: relative;
+  flex-shrink: 0;
+}
+.rec {
+  pointer-events: none;
+
+  position: absolute;
+  width: 80%;
+  height: 500px;
+  z-index: -1;
+  bottom: 7px;
+  background: #339696;
+  box-shadow: 0px 15px 44px 0px rgba(51, 150, 150, 0.4);
+}
+
+html[dir="ltr"] .rec{
+  right: -160px;
+}
+html[dir="rtl"] .rec{
+  left: -160px;
+}
+
+/* ///////////////////////////////////// End Why-TMKL ///////////////////////////////////////// */
+
+/* ///////////////////////////////////// Start Find ///////////////////////////////////////// */
+.find {
+  margin: 100px 0;
+  position: relative;
+}
+
+.find-img img{
+  border-radius: 50px 0px 0px 50px;
+}
+html[dir="rtl"] .find-img img{
+  border-radius: 0px 50px 50px 0px;
+} 
+.main-img {
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  inset: 0;
+  border-radius: 20px 0px 0px 20px;
+  background: linear-gradient(
+    213deg,
+    rgba(51, 150, 150, 0) 48.33%,
+    #339696 98.73%
+  );
+  width: 100%;
+}
+html[dir="rtl"] .overlay{
+    transform: scaleX(-1);
+}
+
+.O-img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+html[dir="rtl"] .O-img {
+    transform: scaleX(-1);
+}
+.find-body-ch {
+  width: 100%;
+  height: 587px;
+  flex-shrink: 0;
+  padding: 50px;
+  border-radius: 0px 50px 50px 0px;
+  background: #4c4c4c;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
+html[dir="rtl"] .find-body-ch{
+  border-radius: 50px 0px 0px 50px;
+
+
+}
+.find-body-ch h1 {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 75px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 110%; /* 88px */
+  padding: 20px;
+}
+.find-body-ch p {
+  color: #f2f2f2;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%; /* 45px */
+  padding: 10px;
+}
+.find-body-ch .D-btn {
+  padding: 10px;
+}
+.find-cad {
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+/* ///////////////////////////////////// End Find ///////////////////////////////////////// */
+
+/* ///////////////////////////////////// Start Footer ///////////////////////////////////////// */
+
+.footer-container {
+  background: #349696;
+  padding: 20px;
+}
+html[dir="rtl"] .footer-container-ch {
+  flex-direction: row-reverse;
+}
+
+.footer-container p {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footer-M h3 {
+  color: #fff;
+  font-family: "MontserratAlternates";
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.footer-L p {
+  margin: 3px 0 0 6px;
+}
+.footer-R p {
+  margin: 3px 6px 0 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////responsive 1400px/////////////////////////////////////// */
+@media screen and (max-width: 1400px) {
+
+  .D-btn {
+    font-size: 22px;
+    width: 230px;
+    height: 65px;
+  }
+
+/* ///////////////////////////////////////hero 1400px/////////////////////////////////////// */
+  .hero-body h2{
+    font-size: 55px;
+  }
+  .hero-body p{
+    font-size: 23px;
+  }
+  .download{
+    font-size: 26px;
+  }
+  .hero-body{
+display: flex; 
+flex-direction: column;
+justify-content: center;
+}
+  .app-img{
+    width: 430px;
+    top:141px ;
+  }
+/* ///////////////////////////////////////Why TMLK 1400px/////////////////////////////////////// */
+.rec-img{
+  width: 100%;
+}
+.rec{
+  height: 375px;
+}
+
+/* ///////////////////////////////////////find 1400px/////////////////////////////////////// */
+
+.find-body-ch {
+height: 587px;
+}
+.find-body-ch h1 {
+font-size: 50px;
+}
+}
+
+
+
+
+
+
+/* ///////////////////////////////////////responsive 1200px/////////////////////////////////////// */
+@media screen and (max-width: 1200px) {
+
+  .D-btn{
+    width: 215px;
+    height: 59px;
+    font-size: 20px;
+
+  }
+
+
+
+
+
+  /* ///////////////////////////////////////hero 1200px/////////////////////////////////////// */
+
+  .hero-ch{
+    height: 690px;
+  }
+  
+  .hero-body h2{
+    font-size: 46px;
+  }
+  .hero-body p{
+    font-size: 19px;
+  
+  }
+  .download p{
+    font-size: 23px;
+  }
+  .app-img{
+    width: 340px;
+  }
+
+/* ///////////////////////////////////////find 1200px/////////////////////////////////////// */
+
+
+
+  .find-body-ch {
+    height: 493px;
+}
+
+.find-body-ch h1 {
+  font-size: 45px;
+  }
+  .find-body-ch p{
+    font-size: 17px;
+
+  }
+
+}
+
+
+
+
+/* ///////////////////////////////////////responsive 992px/////////////////////////////////////// */
+@media screen and (max-width: 992px) {
+  
+/* ///////////////////////////////////////hero 991px/////////////////////////////////////// */
+
+  .hero-body h2 {
+    font-size: 39px;
+}
+.hero-ch {
+  height: 570px;
+}
+.download{
+  margin: 0;
+}
+.hero .my-5{
+  margin: 15px 0 !important;
+}
+.hero .stores{
+  margin-top: 20px;
+}
+.app-img {
+  width: 255px;
+}
+/* ///////////////////////////////////////challeng 991px/////////////////////////////////////// */
+
+.challenge-body h1 {
+font-size: 65px;
+}
+.challenge-body p{
+  font-size: 25px;
+}
+.challenge-img{
+  width: auto;
+
+}
+
+/* ///////////////////////////////////////why 991px/////////////////////////////////////// */
+
+
+.rec{
+  height: 280px;
+}
+
+
+/* ///////////////////////////////////////find 991px/////////////////////////////////////// */
+
+
+.find-body-ch {
+  height: 366px;
+  padding: 20px;
+}
+.find-body-ch h1 {
+  font-size: 35px;
+
+}
+.find-body-ch p {
+  font-size: 13px;
+}
+.D-btn {
+  width: 200px;
+  height: 55px;
+  font-size: 19px;
+}
+}
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////responsive 768px/////////////////////////////////////// */
+@media screen and (max-width: 770px) {
+  .header-R .stores {
+    display: none;
+  }
+
+
+
+    /* ///////////////////////////////////////hero 768px/////////////////////////////////////// */
+
+  .hero-ch {
+    height: 880px;
+    text-align: center;
+    margin: 85px 0 0 0;
+    border-radius: 60px;
+    background: linear-gradient(
+      315deg,
+      #349696 -6.8%,
+      #dcbd8c 31.99%,
+      #349696 53.1%,
+      #bd735c 77.2%,
+      #349696 95.93%
+    );
+    opacity: 0.9;
+  }
+  .hero-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .hero-ch h2 {
+    font-size: 40px;
+  }
+  .hero-ch p {
+    font-size: 20px;
+    margin: 20px 0;
+  }
+  .download p {
+    font-size: 23px;
+  }
+  .hero-img {
+    display: flex;
+    justify-content: center;
+  }
+  .app-img {
+    width: 330px;
+    top: -59px;
+    margin-left: 0;
+  }
+  
+  /* ///////////////////////////////////////Challenge 768px/////////////////////////////////////// */
+
+  .challenge {
+    margin-bottom: 0;
+  }
+
+  .challenge-body {
+    margin-top: 130px;
+    padding: 30px;
+  }
+  .challenge-body h1 {
+    font-size: 65px;
+  }
+  .challenge-body p {
+    font-size: 22px;
+  }
+  .challenge-img {
+    width: auto;
+  }
+  
+  /* ///////////////////////////////////////.Why-TMLK 768px/////////////////////////////////////// */
+  .Why-TMLK {
+    margin-top: -145px;
+  }
+  .why-body {
+    text-align: center;
+  }
+  .why-img {
+    margin-top: 40px;
+  }
+   /* ///////////////////////////////////////find 768px/////////////////////////////////////// */
+
+   .find-img {
+    display: none;
+  }
+  .find-body-ch {
+    height: 540px;
+    border-radius: 50px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .find-body-ch h1 {
+    font-size: 60px;
+  }
+  html[dir="rtl"] .find-body-ch{
+    border-radius: 50px;
+
+  }
+
+ /* ///////////////////////////////////////footer 768px/////////////////////////////////////// */
+
+ .footer-container .container {
+  flex-direction: column !important;
+  gap: 15px !important;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////////////responsive 540px/////////////////////////////////////// */
+@media screen and (max-width: 540px) {
+  .container {
+    margin: 15px 0;
+    padding: 0 50px;
+  }
+  .D-btn {
+    font-size: 20px;
+    width: 200px;
+    height: 55px;
+  }
+  .store {
+    width: 155px !important;
+    height: 48px !important;
+  }
+  .store p {
+    font-size: 10px !important;
+  }
+  .store h2 {
+    font-size: 18px !important;
+  }
+  /* //////////////////////////////// */
+  .header-L h2 {
+    font-size: 45px;
+  }
+
+
+  /* ///////////////////////////////////////hero 540px/////////////////////////////////////// */
+
+  
+  .hero-ch h2 {
+    font-size: 35.2px;
+  }
+  .hero-ch p {
+    font-size: 15.4px;
+  }
+ 
+  
+
+  .app-img {
+    width: 305px;
+    top: -70px;
+  }
+
+  /* ///////////////////////////////////////Challenge 540px/////////////////////////////////////// */
+
+  .challenge {
+    margin-bottom: 0;
+  }
+
+  .challenge-body {
+    margin-top: 130px;
+    padding: 30px;
+  }
+  .challenge-body h1 {
+    font-size: 65px;
+  }
+  .challenge-body p {
+    font-size: 22px;
+  }
+  .challenge-img {
+    width: auto;
+  }
+
+  /* ///////////////////////////////////////.Why-TMLK 540px/////////////////////////////////////// */
+  .Why-TMLK {
+    margin-top: -145px;
+  }
+  .why-body {
+    text-align: center;
+  }
+  .why-img {
+    margin-top: 40px;
+  }
+
+  .rec {
+    width: 70%;
+    height: 322px;
+    bottom: 7px;
+    right: -50px;
+  }
+  .rec-img {
+    width: 100%;
+  }
+}
+
+
+/* ///////////////////////////////////////responsive 470px/////////////////////////////////////// */
+@media screen and (max-width: 470px) {
+
+  .app-img {
+    width: 270px;
+  }
+.challenge{
+  margin: 300px 0 0 0 ;
+}
+.rec{
+  height: 255px;
+}
+.why-body h1{
+  font-size: 55px;
+}
+.why-body p{
+font-size: 16px;
+}
+.find-body-ch h1 {
+font-size: 52px;
+}
+.footer-L p {
+  font-size: 14px;
+}
+
+}
+/* ///////////////////////////////////////responsive 433px/////////////////////////////////////// */
+@media screen and (max-width: 433px) {
+  .hero-ch{
+    padding: 0px;
+    height: 707px;
+  }
+  .app-img {
+    top: -45px;
+}
+  .store {
+    width: 135px !important;
+    height: 38px !important;
+  }
+ .store-img{
+  width: 22.833px !important; 
+ }
+
+.store h2 {
+  font-size: 15px !important;
+}
+
+
+
+.Why-TMLK {
+  margin-top: -245px;
+}
+
+.find-body-ch h1 {
+  font-size: 46px;
+}
+.footer-L p {
+  font-size: 12px;
+}
+}
+
+/* ///////////////////////////////////////responsive 394px/////////////////////////////////////// */
+@media screen and (max-width: 394px) {
+
+  .hero-ch h2 {
+    font-size: 31.2px;
+  }
+
+  .hero-ch p {
+    font-size: 13.4px;
+  }
+  .store {
+    width: 127px !important;
+    height: 35px !important;
+}
+.store-img {
+  width : 20.833px !important;
+  height: 46.07px !important;
+
+}
+.store h2 {
+  font-size: 14px !important;
+}
+
+  
+  .why-body h1 {
+    font-size: 50px;
+}
+  .rec {
+    height: 190px;
+    }
+
+    .find-body-ch h1 {
+      font-size: 42px;
+  }
+
+}
+/* ///////////////////////////////////////responsive 381px/////////////////////////////////////// */
+@media screen and (max-width: 381px) {
+  .store-m {
+    margin-right: 9px;
+}
+.app-img {
+  width: 240px;
+}
+  
+  
+  .challenge-body h1 {
+    font-size: 45px;
+}
+.challenge-body p {
+  font-size: 17px;
+}
+.why-body h1 {
+  font-size: 46px;
+}
+.find-body-ch h1 {
+  font-size: 40px;
+}
+.footer-L p {
+  font-size: 11px;
+}
+
+
+
+}
